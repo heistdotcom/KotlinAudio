@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
 
-    tools:context="com.doublesymmetry.kotlin_audio_sample.FirstFragment">
+    tools:context="com.heistdotcom.kotlin_audio_sample.FirstFragment">
 
     <TextView
         android:id="@+id/textview_artist"

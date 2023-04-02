@@ -1,4 +1,4 @@
-package com.doublesymmetry.kotlinaudio.models
+package com.heistdotcom.kotlinaudio.models
 
 import android.os.Bundle
 import android.support.v4.media.RatingCompat

@@ -1,11 +1,11 @@
-package com.doublesymmetry.kotlinaudio
+package com.heistdotcom.kotlinaudio
 
 import androidx.test.platform.app.InstrumentationRegistry
-import com.doublesymmetry.kotlinaudio.models.AudioPlayerState
-import com.doublesymmetry.kotlinaudio.models.CacheConfig
-import com.doublesymmetry.kotlinaudio.models.RepeatMode.*
-import com.doublesymmetry.kotlinaudio.players.QueuedAudioPlayer
-import com.doublesymmetry.kotlinaudio.utils.*
+import com.heistdotcom.kotlinaudio.models.AudioPlayerState
+import com.heistdotcom.kotlinaudio.models.CacheConfig
+import com.heistdotcom.kotlinaudio.models.RepeatMode.*
+import com.heistdotcom.kotlinaudio.players.QueuedAudioPlayer
+import com.heistdotcom.kotlinaudio.utils.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.SharingStarted
@@ -401,7 +401,7 @@ class QueuedAudioPlayerTest {
                     })
                 }
 
-            // TODO: Fix known bug from: https://github.com/doublesymmetry/react-native-track-player/pull/1501
+            // TODO: Fix known bug from: https://github.com/heistdotcom/react-native-track-player/pull/1501
             @Test
             fun givenAddedTwoItemsAndAllowingPlaybackToEndTwice_whenRepeatModeOff_thenShouldStopPlayback() =
                 runBlocking(Dispatchers.Main) {

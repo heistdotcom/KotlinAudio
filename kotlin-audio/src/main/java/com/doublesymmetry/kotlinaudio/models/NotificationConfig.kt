@@ -1,11 +1,11 @@
-package com.doublesymmetry.kotlinaudio.models
+package com.heistdotcom.kotlinaudio.models
 
 import android.app.PendingIntent
 import androidx.annotation.DrawableRes
 
 /**
  * Used to configure the player notification.
- * @param buttons Provide customized notification buttons. They will be shown by default. Note that buttons can still be shown and hidden at runtime by using the functions in [NotificationManager][com.doublesymmetry.kotlinaudio.notification.NotificationManager], but they will have the default icon if not set explicitly here.
+ * @param buttons Provide customized notification buttons. They will be shown by default. Note that buttons can still be shown and hidden at runtime by using the functions in [NotificationManager][com.heistdotcom.kotlinaudio.notification.NotificationManager], but they will have the default icon if not set explicitly here.
  * @param accentColor The accent color of the notification.
  * @param smallIcon The small icon of the notification which is also shown in the system status bar.
  * @param pendingIntent The [PendingIntent] that would be called when tapping on the notification itself.
@@ -18,17 +18,17 @@ data class NotificationConfig(
 )
 
 /**
- * Provide customized notification buttons. They will be shown by default. Note that buttons can still be shown and hidden at runtime by using the functions in [NotificationManager][com.doublesymmetry.kotlinaudio.notification.NotificationManager], but they will have the default icon if not set explicitly here.
- * @see [com.doublesymmetry.kotlinaudio.notification.NotificationManager.showPlayPauseButton]
- * @see [com.doublesymmetry.kotlinaudio.notification.NotificationManager.showStopButton]
- * @see [com.doublesymmetry.kotlinaudio.notification.NotificationManager.showRewindButton]
- * @see [com.doublesymmetry.kotlinaudio.notification.NotificationManager.showRewindButtonCompact]
- * @see [com.doublesymmetry.kotlinaudio.notification.NotificationManager.showForwardButton]
- * @see [com.doublesymmetry.kotlinaudio.notification.NotificationManager.showForwardButtonCompact]
- * @see [com.doublesymmetry.kotlinaudio.notification.NotificationManager.showNextButton]
- * @see [com.doublesymmetry.kotlinaudio.notification.NotificationManager.showNextButtonCompact]
- * @see [com.doublesymmetry.kotlinaudio.notification.NotificationManager.showPreviousButton]
- * @see [com.doublesymmetry.kotlinaudio.notification.NotificationManager.showPreviousButtonCompact]
+ * Provide customized notification buttons. They will be shown by default. Note that buttons can still be shown and hidden at runtime by using the functions in [NotificationManager][com.heistdotcom.kotlinaudio.notification.NotificationManager], but they will have the default icon if not set explicitly here.
+ * @see [com.heistdotcom.kotlinaudio.notification.NotificationManager.showPlayPauseButton]
+ * @see [com.heistdotcom.kotlinaudio.notification.NotificationManager.showStopButton]
+ * @see [com.heistdotcom.kotlinaudio.notification.NotificationManager.showRewindButton]
+ * @see [com.heistdotcom.kotlinaudio.notification.NotificationManager.showRewindButtonCompact]
+ * @see [com.heistdotcom.kotlinaudio.notification.NotificationManager.showForwardButton]
+ * @see [com.heistdotcom.kotlinaudio.notification.NotificationManager.showForwardButtonCompact]
+ * @see [com.heistdotcom.kotlinaudio.notification.NotificationManager.showNextButton]
+ * @see [com.heistdotcom.kotlinaudio.notification.NotificationManager.showNextButtonCompact]
+ * @see [com.heistdotcom.kotlinaudio.notification.NotificationManager.showPreviousButton]
+ * @see [com.heistdotcom.kotlinaudio.notification.NotificationManager.showPreviousButtonCompact]
  */
 @Suppress("ClassName")
 sealed class NotificationButton {

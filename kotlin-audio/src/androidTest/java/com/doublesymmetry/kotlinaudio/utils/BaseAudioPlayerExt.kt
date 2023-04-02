@@ -1,8 +1,8 @@
-package com.doublesymmetry.kotlinaudio.utils
+package com.heistdotcom.kotlinaudio.utils
 
-import com.doublesymmetry.kotlinaudio.models.AudioItemTransitionReason
-import com.doublesymmetry.kotlinaudio.players.BaseAudioPlayer
-import com.doublesymmetry.kotlinaudio.players.QueuedAudioPlayer
+import com.heistdotcom.kotlinaudio.models.AudioItemTransitionReason
+import com.heistdotcom.kotlinaudio.players.BaseAudioPlayer
+import com.heistdotcom.kotlinaudio.players.QueuedAudioPlayer
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.collect

@@ -1,4 +1,4 @@
-package com.doublesymmetry.kotlin_audio_sample
+package com.heistdotcom.kotlin_audio_sample
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.doublesymmetry.kotlin_audio_sample.databinding.FragmentFirstBinding
-import com.doublesymmetry.kotlinaudio.models.*
-import com.doublesymmetry.kotlinaudio.players.QueuedAudioPlayer
+import com.heistdotcom.kotlin_audio_sample.databinding.FragmentFirstBinding
+import com.heistdotcom.kotlinaudio.models.*
+import com.heistdotcom.kotlinaudio.players.QueuedAudioPlayer
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch

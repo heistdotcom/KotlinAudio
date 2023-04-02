@@ -1,4 +1,4 @@
-package com.doublesymmetry.kotlinaudio.utils
+package com.heistdotcom.kotlinaudio.utils
 
 import kotlinx.coroutines.*
 import java.time.Duration

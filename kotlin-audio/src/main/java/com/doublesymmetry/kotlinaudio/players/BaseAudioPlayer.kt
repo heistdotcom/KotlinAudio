@@ -1,4 +1,4 @@
-package com.doublesymmetry.kotlinaudio.players
+package com.heistdotcom.kotlinaudio.players
 
 import android.content.Context
 import android.media.AudioManager
@@ -16,13 +16,13 @@ import androidx.media.AudioAttributesCompat.USAGE_MEDIA
 import androidx.media.AudioFocusRequestCompat
 import androidx.media.AudioManagerCompat
 import androidx.media.AudioManagerCompat.AUDIOFOCUS_GAIN
-import com.doublesymmetry.kotlinaudio.event.EventHolder
-import com.doublesymmetry.kotlinaudio.event.NotificationEventHolder
-import com.doublesymmetry.kotlinaudio.event.PlayerEventHolder
-import com.doublesymmetry.kotlinaudio.models.*
-import com.doublesymmetry.kotlinaudio.notification.NotificationManager
-import com.doublesymmetry.kotlinaudio.players.components.PlayerCache
-import com.doublesymmetry.kotlinaudio.utils.isUriLocal
+import com.heistdotcom.kotlinaudio.event.EventHolder
+import com.heistdotcom.kotlinaudio.event.NotificationEventHolder
+import com.heistdotcom.kotlinaudio.event.PlayerEventHolder
+import com.heistdotcom.kotlinaudio.models.*
+import com.heistdotcom.kotlinaudio.notification.NotificationManager
+import com.heistdotcom.kotlinaudio.players.components.PlayerCache
+import com.heistdotcom.kotlinaudio.utils.isUriLocal
 import com.google.android.exoplayer2.*
 import com.google.android.exoplayer2.DefaultLoadControl.*
 import com.google.android.exoplayer2.Player.Listener

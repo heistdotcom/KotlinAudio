@@ -1,4 +1,4 @@
-package com.doublesymmetry.kotlinaudio.models
+package com.heistdotcom.kotlinaudio.models
 
 import com.google.android.exoplayer2.metadata.Metadata
 import com.google.android.exoplayer2.metadata.flac.VorbisComment

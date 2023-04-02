@@ -1,4 +1,4 @@
-package com.doublesymmetry.kotlinaudio.utils
+package com.heistdotcom.kotlinaudio.utils
 
 import android.content.ContentResolver
 import android.net.Uri

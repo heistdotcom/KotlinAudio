@@ -1,6 +1,6 @@
-package com.doublesymmetry.kotlinaudio.event
+package com.heistdotcom.kotlinaudio.event
 
-import com.doublesymmetry.kotlinaudio.models.*
+import com.heistdotcom.kotlinaudio.models.*
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -22,7 +22,7 @@ class PlayerEventHolder {
 
     private var _playWhenReadyChange = MutableSharedFlow<PlayWhenReadyChangeData>(1)
     /**
-     * Use these events to track when [com.doublesymmetry.kotlinaudio.players.BaseAudioPlayer.playWhenReady]
+     * Use these events to track when [com.heistdotcom.kotlinaudio.players.BaseAudioPlayer.playWhenReady]
      * changes.
      */
     var playWhenReadyChange = _playWhenReadyChange.asSharedFlow()
@@ -52,7 +52,7 @@ class PlayerEventHolder {
      *
      * The sources can be: media buttons on headphones, Android Wear, Android Auto, Google Assistant, media notification, etc.
      *
-     * For this observable to send events, set [interceptPlayerActionsTriggeredExternally][com.doublesymmetry.kotlinaudio.models.PlayerConfig.interceptPlayerActionsTriggeredExternally] to true.
+     * For this observable to send events, set [interceptPlayerActionsTriggeredExternally][com.heistdotcom.kotlinaudio.models.PlayerConfig.interceptPlayerActionsTriggeredExternally] to true.
     */
     var onPlayerActionTriggeredExternally = _onPlayerActionTriggeredExternally.asSharedFlow()
 

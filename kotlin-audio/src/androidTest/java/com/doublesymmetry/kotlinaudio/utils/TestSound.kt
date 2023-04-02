@@ -1,9 +1,9 @@
-package com.doublesymmetry.kotlinaudio.utils
+package com.heistdotcom.kotlinaudio.utils
 
-import com.doublesymmetry.kotlinaudio.test.R
-import com.doublesymmetry.kotlinaudio.models.AudioItemOptions
-import com.doublesymmetry.kotlinaudio.models.DefaultAudioItem
-import com.doublesymmetry.kotlinaudio.models.MediaType
+import com.heistdotcom.kotlinaudio.test.R
+import com.heistdotcom.kotlinaudio.models.AudioItemOptions
+import com.heistdotcom.kotlinaudio.models.DefaultAudioItem
+import com.heistdotcom.kotlinaudio.models.MediaType
 
 object TestSound {
     /** The common test case (track is 3 seconds long). */

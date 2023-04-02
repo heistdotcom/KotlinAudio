@@ -1,4 +1,4 @@
-package com.doublesymmetry.kotlinaudio.event
+package com.heistdotcom.kotlinaudio.event
 
 class EventHolder internal constructor(private val notificationEventHolder: NotificationEventHolder, private val playerEventHolder: PlayerEventHolder) {
     val audioItemTransition

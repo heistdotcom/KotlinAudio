@@ -1,4 +1,4 @@
-package com.doublesymmetry.kotlinaudio.notification
+package com.heistdotcom.kotlinaudio.notification
 
 import android.app.Notification
 import android.app.PendingIntent
@@ -18,15 +18,15 @@ import androidx.annotation.DrawableRes
 import androidx.core.app.NotificationCompat
 import coil.imageLoader
 import coil.request.ImageRequest
-import com.doublesymmetry.kotlinaudio.R
-import com.doublesymmetry.kotlinaudio.event.NotificationEventHolder
-import com.doublesymmetry.kotlinaudio.event.PlayerEventHolder
-import com.doublesymmetry.kotlinaudio.models.AudioItemHolder
-import com.doublesymmetry.kotlinaudio.models.MediaSessionCallback
-import com.doublesymmetry.kotlinaudio.models.NotificationButton
-import com.doublesymmetry.kotlinaudio.models.NotificationConfig
-import com.doublesymmetry.kotlinaudio.models.NotificationMetadata
-import com.doublesymmetry.kotlinaudio.models.NotificationState
+import com.heistdotcom.kotlinaudio.R
+import com.heistdotcom.kotlinaudio.event.NotificationEventHolder
+import com.heistdotcom.kotlinaudio.event.PlayerEventHolder
+import com.heistdotcom.kotlinaudio.models.AudioItemHolder
+import com.heistdotcom.kotlinaudio.models.MediaSessionCallback
+import com.heistdotcom.kotlinaudio.models.NotificationButton
+import com.heistdotcom.kotlinaudio.models.NotificationConfig
+import com.heistdotcom.kotlinaudio.models.NotificationMetadata
+import com.heistdotcom.kotlinaudio.models.NotificationState
 import com.google.android.exoplayer2.Player
 import com.google.android.exoplayer2.ext.mediasession.MediaSessionConnector
 import com.google.android.exoplayer2.ext.mediasession.TimelineQueueNavigator

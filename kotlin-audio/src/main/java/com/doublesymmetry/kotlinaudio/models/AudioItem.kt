@@ -1,4 +1,4 @@
-package com.doublesymmetry.kotlinaudio.models
+package com.heistdotcom.kotlinaudio.models
 
 import android.graphics.Bitmap
 

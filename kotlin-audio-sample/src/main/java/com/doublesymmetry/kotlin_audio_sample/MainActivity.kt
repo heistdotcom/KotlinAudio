@@ -1,4 +1,4 @@
-package com.doublesymmetry.kotlin_audio_sample
+package com.heistdotcom.kotlin_audio_sample
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -7,7 +7,7 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
-import com.doublesymmetry.kotlin_audio_sample.databinding.ActivityMainBinding
+import com.heistdotcom.kotlin_audio_sample.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration

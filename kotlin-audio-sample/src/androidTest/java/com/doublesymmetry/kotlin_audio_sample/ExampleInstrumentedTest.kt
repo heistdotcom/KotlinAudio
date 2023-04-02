@@ -1,4 +1,4 @@
-package com.doublesymmetry.kotlin_audio_sample
+package com.heistdotcom.kotlin_audio_sample
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

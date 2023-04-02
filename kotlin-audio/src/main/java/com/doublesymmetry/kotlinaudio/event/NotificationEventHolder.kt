@@ -1,6 +1,6 @@
-package com.doublesymmetry.kotlinaudio.event
+package com.heistdotcom.kotlinaudio.event
 
-import com.doublesymmetry.kotlinaudio.models.NotificationState
+import com.heistdotcom.kotlinaudio.models.NotificationState
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow

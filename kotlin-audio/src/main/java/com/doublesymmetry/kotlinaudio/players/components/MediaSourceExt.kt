@@ -1,11 +1,11 @@
-package com.doublesymmetry.kotlinaudio.players.components
+package com.heistdotcom.kotlinaudio.players.components
 
 import android.net.Uri
 import android.os.Bundle
 import android.support.v4.media.MediaDescriptionCompat
 import android.support.v4.media.MediaMetadataCompat
 import android.support.v4.media.RatingCompat
-import com.doublesymmetry.kotlinaudio.models.AudioItemHolder
+import com.heistdotcom.kotlinaudio.models.AudioItemHolder
 import com.google.android.exoplayer2.source.MediaSource
 
 fun MediaSource.getMediaMetadataCompat(): MediaMetadataCompat {

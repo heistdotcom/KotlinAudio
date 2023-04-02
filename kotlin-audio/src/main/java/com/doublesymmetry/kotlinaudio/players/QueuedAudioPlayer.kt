@@ -1,7 +1,7 @@
-package com.doublesymmetry.kotlinaudio.players
+package com.heistdotcom.kotlinaudio.players
 
 import android.content.Context
-import com.doublesymmetry.kotlinaudio.models.*
+import com.heistdotcom.kotlinaudio.models.*
 import com.google.android.exoplayer2.C
 import com.google.android.exoplayer2.IllegalSeekPositionException
 import com.google.android.exoplayer2.source.MediaSource

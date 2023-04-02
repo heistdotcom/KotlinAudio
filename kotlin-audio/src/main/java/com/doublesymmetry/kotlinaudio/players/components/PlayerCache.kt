@@ -1,7 +1,7 @@
-package com.doublesymmetry.kotlinaudio.players.components
+package com.heistdotcom.kotlinaudio.players.components
 
 import android.content.Context
-import com.doublesymmetry.kotlinaudio.models.CacheConfig
+import com.heistdotcom.kotlinaudio.models.CacheConfig
 import com.google.android.exoplayer2.database.DatabaseProvider
 import com.google.android.exoplayer2.database.StandaloneDatabaseProvider
 import com.google.android.exoplayer2.upstream.cache.LeastRecentlyUsedCacheEvictor

@@ -1,7 +1,7 @@
-package com.doublesymmetry.kotlinaudio.models
+package com.heistdotcom.kotlinaudio.models
 
 import com.google.android.exoplayer2.C
-import com.doublesymmetry.kotlinaudio.models.AudioContentType
+import com.heistdotcom.kotlinaudio.models.AudioContentType
 
 data class PlayerConfig(
     /**
@@ -9,7 +9,7 @@ data class PlayerConfig(
      *
      * The sources can be: media buttons on headphones, Android Wear, Android Auto, Google Assistant, media notification, etc.
      *
-     * Setting this to true enables the use of [onPlayerActionTriggeredExternally][com.doublesymmetry.kotlinaudio.event.PlayerEventHolder.onPlayerActionTriggeredExternally] events.
+     * Setting this to true enables the use of [onPlayerActionTriggeredExternally][com.heistdotcom.kotlinaudio.event.PlayerEventHolder.onPlayerActionTriggeredExternally] events.
      *
      * **Example**:
      * ```

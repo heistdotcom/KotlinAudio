@@ -7,7 +7,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.doublesymmetry.kotlin_audio_sample"
+        applicationId "com.heistdotcom.kotlin_audio_sample"
         minSdk 21
         targetSdk 33
         versionCode 1
