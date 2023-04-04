@@ -91,6 +91,13 @@ afterEvaluate {
 //            }
 
         }
+        repositories {
+        maven {
+            name = "KotlinAudio" //  optional target repository name
+            url = "https://github.com/heistdotcom/KotlinAudio"
+            
+        }
+    }
     }
 }
 
